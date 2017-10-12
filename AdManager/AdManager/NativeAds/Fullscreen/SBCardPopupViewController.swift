@@ -64,7 +64,7 @@ public class SBCardPopupViewController: UIViewController {
     
     private let backgroundOpacity = CGFloat(0.6)
     
-    private var displayLink: CADisplayLink!
+    private var displayLink: CADisplayLink?
     private var lastTimeStamp: CFTimeInterval?
     
     private let contentViewController: UIViewController?
@@ -106,6 +106,12 @@ public class SBCardPopupViewController: UIViewController {
     deinit {
         debugPrint("Deinit \(self)")
     }
+
+    override public func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        displayLink?.invalidate()
+        displayLink = nil
+    }
     
     override public func viewDidLoad() {
         super.viewDidLoad()
@@ -143,8 +149,10 @@ public class SBCardPopupViewController: UIViewController {
         view.addGestureRecognizer(panRecognizer)
         
         // Display Link
+        displayLink?.invalidate()
+        displayLink = nil
         displayLink = CADisplayLink(target: self, selector: #selector(tick))
-        displayLink.add(to: .current, forMode: .commonModes)
+        displayLink?.add(to: .current, forMode: .commonModes)
     }
     
     public override func viewDidAppear(_ animated: Bool) {
@@ -424,16 +432,16 @@ public class SBCardPopupViewController: UIViewController {
         
         
         // We need a previous time stamp to work with, bail if we don't have one
-        guard let last = lastTimeStamp else{
-            lastTimeStamp = displayLink.timestamp
+        guard let last = lastTimeStamp, let timestamp = displayLink?.timestamp else {
+            lastTimeStamp = displayLink?.timestamp
             return
         }
         
         // Work out dt
-        let dt = displayLink.timestamp - last
+        let dt = timestamp - last
         
         // Save the current time
-        lastTimeStamp = displayLink.timestamp
+        lastTimeStamp = displayLink?.timestamp
 
         // If we're using physics to animate out, update the simulation
         guard case var State.physicsOut(physicsState) = state else {
