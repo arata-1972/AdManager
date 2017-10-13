@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  - Implement GoogleMobileAds/Admob
  - Implement AdManager delegates for
      - isAdReady
+ - Implement banner ads
 
  **/
 

@@ -162,9 +162,9 @@
 		364797A51F8FB57D00910124 /* AdManager */ = {
 			isa = PBXGroup;
 			children = (
+				364797D81F8FB77E00910124 /* AdManager */,
 				364797A61F8FB57D00910124 /* AppDelegate.swift */,
 				364797A81F8FB57D00910124 /* ViewController.swift */,
-				364797D81F8FB77E00910124 /* AdManager */,
 				364797AA1F8FB57D00910124 /* Main.storyboard */,
 				364797AD1F8FB57D00910124 /* Assets.xcassets */,
 				364797AF1F8FB57D00910124 /* LaunchScreen.storyboard */,
