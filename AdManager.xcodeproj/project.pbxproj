@@ -17,13 +17,10 @@
 		364797BC1F8FB57D00910124 /* AdManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797BB1F8FB57D00910124 /* AdManagerTests.swift */; };
 		364797C71F8FB57D00910124 /* AdManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797C61F8FB57D00910124 /* AdManagerUITests.swift */; };
 		364797D51F8FB59000910124 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797D41F8FB59000910124 /* AdManager.swift */; };
-		364797F11F8FB8B700910124 /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364797EF1F8FB8A400910124 /* StartApp.framework */; };
-		364797F21F8FB8B900910124 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 364797F01F8FB8A400910124 /* StartApp.bundle */; };
 		364797F41F8FB8CA00910124 /* NativeAdViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797DA1F8FB77E00910124 /* NativeAdViewProtocol.swift */; };
 		364797F51F8FB8CC00910124 /* NativeBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797DB1F8FB77E00910124 /* NativeBannerAd.swift */; };
 		364797F61F8FB8CF00910124 /* NativeFullScreenAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797DC1F8FB77E00910124 /* NativeFullScreenAdViewController.swift */; };
 		364797F71F8FB8D300910124 /* StartAppDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797DE1F8FB77E00910124 /* StartAppDriver.swift */; };
-		364797F81F8FB8D600910124 /* AdmobDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797DF1F8FB77E00910124 /* AdmobDriver.swift */; };
 		364797F91F8FB8D900910124 /* NativeAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797E11F8FB77E00910124 /* NativeAd.swift */; };
 		364797FB1F8FB90900910124 /* SBCardPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364797FA1F8FB90900910124 /* SBCardPopupViewController.swift */; };
 		364797FF1F8FB9FB00910124 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364797FE1F8FB9FB00910124 /* AdSupport.framework */; };
@@ -35,6 +32,8 @@
 		3647980B1F8FBA2B00910124 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647980A1F8FBA2B00910124 /* CoreTelephony.framework */; };
 		3647980D1F8FBA7700910124 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647980C1F8FBA7700910124 /* CoreMedia.framework */; };
 		3647980F1F8FBB3E00910124 /* NativeFullscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3647980E1F8FBB3E00910124 /* NativeFullscreen.storyboard */; };
+		36C1584C1F913304006E2475 /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C1584B1F9132FC006E2475 /* StartApp.framework */; };
+		36C1584D1F913306006E2475 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36C1584A1F9132FC006E2475 /* StartApp.bundle */; };
 		680F981B2B5B36737F4BBD39 /* Pods_AdManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE84880FCA81417CB43F0258 /* Pods_AdManager.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,11 +74,8 @@
 		364797DB1F8FB77E00910124 /* NativeBannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeBannerAd.swift; sourceTree = "<group>"; };
 		364797DC1F8FB77E00910124 /* NativeFullScreenAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeFullScreenAdViewController.swift; sourceTree = "<group>"; };
 		364797DE1F8FB77E00910124 /* StartAppDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppDriver.swift; sourceTree = "<group>"; };
-		364797DF1F8FB77E00910124 /* AdmobDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmobDriver.swift; sourceTree = "<group>"; };
 		364797E11F8FB77E00910124 /* NativeAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAd.swift; sourceTree = "<group>"; };
 		364797E21F8FB81800910124 /* AdManager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdManager-Bridging-Header.h"; sourceTree = "<group>"; };
-		364797EF1F8FB8A400910124 /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StartApp.framework; sourceTree = "<group>"; };
-		364797F01F8FB8A400910124 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
 		364797FA1F8FB90900910124 /* SBCardPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCardPopupViewController.swift; sourceTree = "<group>"; };
 		364797FE1F8FB9FB00910124 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		364798001F8FBA0000910124 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +86,8 @@
 		3647980A1F8FBA2B00910124 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3647980C1F8FBA7700910124 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3647980E1F8FBB3E00910124 /* NativeFullscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NativeFullscreen.storyboard; sourceTree = "<group>"; };
+		36C1584A1F9132FC006E2475 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		36C1584B1F9132FC006E2475 /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StartApp.framework; sourceTree = "<group>"; };
 		6C531A9A3BABFBDB3DB8B36E /* Pods-AdManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdManagerUITests/Pods-AdManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		83CF445382CFBCE0CBD97592 /* Pods-AdManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdManagerTests/Pods-AdManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94B5F17898792997EAE866C3 /* Pods-AdManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdManagerTests/Pods-AdManagerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,12 +106,12 @@
 				3647980D1F8FBA7700910124 /* CoreMedia.framework in Frameworks */,
 				3647980B1F8FBA2B00910124 /* CoreTelephony.framework in Frameworks */,
 				364798091F8FBA2400910124 /* WebKit.framework in Frameworks */,
+				36C1584C1F913304006E2475 /* StartApp.framework in Frameworks */,
 				364798071F8FBA1500910124 /* StoreKit.framework in Frameworks */,
 				364798051F8FBA0A00910124 /* libz.tbd in Frameworks */,
 				364798031F8FBA0500910124 /* SystemConfiguration.framework in Frameworks */,
 				364798011F8FBA0000910124 /* AVFoundation.framework in Frameworks */,
 				364797FF1F8FB9FB00910124 /* AdSupport.framework in Frameworks */,
-				364797F11F8FB8B700910124 /* StartApp.framework in Frameworks */,
 				680F981B2B5B36737F4BBD39 /* Pods_AdManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +193,7 @@
 		364797D81F8FB77E00910124 /* AdManager */ = {
 			isa = PBXGroup;
 			children = (
+				36C158491F9132B1006E2475 /* AdNetwork_Frameworks */,
 				364797D41F8FB59000910124 /* AdManager.swift */,
 				364797D91F8FB77E00910124 /* NativeAds */,
 				364797DD1F8FB77E00910124 /* AdNetworkDrivers */,
@@ -217,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				364797DE1F8FB77E00910124 /* StartAppDriver.swift */,
-				364797DF1F8FB77E00910124 /* AdmobDriver.swift */,
 			);
 			path = AdNetworkDrivers;
 			sourceTree = "<group>";
@@ -228,16 +226,6 @@
 				364797E11F8FB77E00910124 /* NativeAd.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		364797EE1F8FB8A400910124 /* StartAppSDK */ = {
-			isa = PBXGroup;
-			children = (
-				364797EF1F8FB8A400910124 /* StartApp.framework */,
-				364797F01F8FB8A400910124 /* StartApp.bundle */,
-			);
-			name = StartAppSDK;
-			path = AdManager/StartAppSDK;
 			sourceTree = "<group>";
 		};
 		364797FC1F8FB90F00910124 /* Fullscreen */ = {
@@ -256,6 +244,15 @@
 				364797DB1F8FB77E00910124 /* NativeBannerAd.swift */,
 			);
 			path = Banner;
+			sourceTree = "<group>";
+		};
+		36C158491F9132B1006E2475 /* AdNetwork_Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C1584A1F9132FC006E2475 /* StartApp.bundle */,
+				36C1584B1F9132FC006E2475 /* StartApp.framework */,
+			);
+			path = AdNetwork_Frameworks;
 			sourceTree = "<group>";
 		};
 		773E84712403C8E709FDD3DC /* Pods */ = {
@@ -282,7 +279,6 @@
 				364798021F8FBA0500910124 /* SystemConfiguration.framework */,
 				364798001F8FBA0000910124 /* AVFoundation.framework */,
 				364797FE1F8FB9FB00910124 /* AdSupport.framework */,
-				364797EE1F8FB8A400910124 /* StartAppSDK */,
 				CE84880FCA81417CB43F0258 /* Pods_AdManager.framework */,
 				CFB02A3BAEB740B8C9FC8D69 /* Pods_AdManagerTests.framework */,
 				0D07899196ACE20DCC053A93 /* Pods_AdManagerUITests.framework */,
@@ -407,10 +403,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364797F21F8FB8B900910124 /* StartApp.bundle in Resources */,
 				364797B11F8FB57D00910124 /* LaunchScreen.storyboard in Resources */,
 				364797AE1F8FB57D00910124 /* Assets.xcassets in Resources */,
 				364797AC1F8FB57D00910124 /* Main.storyboard in Resources */,
+				36C1584D1F913306006E2475 /* StartApp.bundle in Resources */,
 				3647980F1F8FBB3E00910124 /* NativeFullscreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,7 +582,6 @@
 				364797D51F8FB59000910124 /* AdManager.swift in Sources */,
 				364797F91F8FB8D900910124 /* NativeAd.swift in Sources */,
 				364797F51F8FB8CC00910124 /* NativeBannerAd.swift in Sources */,
-				364797F81F8FB8D600910124 /* AdmobDriver.swift in Sources */,
 				364797FB1F8FB90900910124 /* SBCardPopupViewController.swift in Sources */,
 				364797F71F8FB8D300910124 /* StartAppDriver.swift in Sources */,
 				364797F61F8FB8CF00910124 /* NativeFullScreenAdViewController.swift in Sources */,
@@ -766,6 +761,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/AdManager/StartAppSDK",
+					"$(PROJECT_DIR)/AdManager/AdManager/AdNetwork_Frameworks",
 				);
 				INFOPLIST_FILE = AdManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -791,6 +787,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/AdManager/StartAppSDK",
+					"$(PROJECT_DIR)/AdManager/AdManager/AdNetwork_Frameworks",
 				);
 				INFOPLIST_FILE = AdManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
